@@ -94,18 +94,19 @@ To check UFW status:
 ```bash
 sudo ufw status
 ```
-Step 7: Access Jenkins Web UI
+### Step 7: Access Jenkins Web UI
+
 Open your browser and go to:
 
 ```cpp
 http://<our-server-ip>:8080
 ```
-If running locally, use:
+If running locally, we use localhost instead of the ip address:
 
 ```cpp
 http://localhost:8080
 ```
-Retrieve the initial admin password: Run the following command to get the initial password:
+Retrieve the initial admin password: We run the following command to get the initial password:
 
 ```bash
 sudo cat /var/lib/jenkins/secrets/initialAdminPassword
