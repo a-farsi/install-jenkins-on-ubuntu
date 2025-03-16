@@ -19,7 +19,7 @@ sudo ufw reload
 sudo cat /var/lib/jenkins/secrets/initialAdminPassword
 ```
 
-Here is the explanation details step by step :
+Here is the step by step explanation:
 
 #### Step 1: Update the System
 Ensure that our system is up to date before installation:
