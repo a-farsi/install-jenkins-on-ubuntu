@@ -96,7 +96,7 @@ sudo ufw status
 ```
 ### Step 7: Access Jenkins Web UI
 
-Open your browser and go to:
+We open our browser and go to:
 
 ```cpp
 http://<our-server-ip>:8080
@@ -135,5 +135,5 @@ sudo systemctl restart jenkins
 Now, we can access Jenkins at:
 
 ```cpp
-http://<your-server-ip>:9090
+http://<our-server-ip>:9090
 ```
